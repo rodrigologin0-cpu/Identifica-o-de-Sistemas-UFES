@@ -1,0 +1,289 @@
+receita;cenario;controlador;patamar;fase;SP_C;inicio_s;fim_s;duracao_s;T_inicial_C;T_final_C;Ts_s;primeiro_bloco_600s_s;tempo_max_continuo_banda_s;sustentou_10min;sobressinal_C;sem_sobressinal_0_02C;tempo_acima_SP_s;area_excesso_C_s;tempo_na_banda_s;MV_media_pct_assumida;grupo;fator_K;fator_tau;atraso_extra_s;atingiu_sem_ultrapassagem
+Receita 01;nominal;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9601;1172;1172;628;True;0.0;True;0;0.0;628;39.735;treino;1.0;1.0;0.0;True
+Receita 01;nominal;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9602;70.4651;478;478;722;True;0.0;True;0;0.0;722;46.32;treino;1.0;1.0;0.0;True
+Receita 01;nominal;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4652;77.9749;376;376;824;True;0.0;True;0;0.0;824;53.748;treino;1.0;1.0;0.0;True
+Receita 01;nominal;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9922;886;886;914;True;0.0;True;0;0.0;914;39.683;treino;1.0;1.0;0.0;True
+Receita 01;nominal;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9922;70.4983;156;156;1044;True;0.0;True;0;0.0;1044;46.553;treino;1.0;1.0;0.0;True
+Receita 01;nominal;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4983;77.9995;112;112;1088;True;0.0;True;0;0.0;1088;53.978;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9975;623;623;1177;True;0.0;True;0;0.0;1177;39.607;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9975;70.499;147;147;1053;True;0.0;True;0;0.0;1053;46.455;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.499;77.9997;100;100;1100;True;0.0;True;0;0.0;1100;53.946;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9998;1016;1016;784;True;0.0;True;0;0.0;784;33.504;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9998;70.4992;486;486;714;True;0.0;True;0;0.0;714;45.641;treino;1.0;1.0;0.0;True
+Receita 01;nominal;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4992;77.9995;453;453;747;True;0.0;True;0;0.0;747;53.294;treino;1.0;1.0;0.0;True
+Receita 01;treino_mais_lento;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9559;;;587;False;0.0;True;0;0.0;587;42.502;treino;0.94;1.08;3.0;False
+Receita 01;treino_mais_lento;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9561;70.4651;479;479;721;True;0.0;True;0;0.0;721;49.377;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4652;77.9753;375;375;825;True;0.0;True;0;0.0;825;57.264;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9923;894;894;906;True;0.0;True;0;0.0;906;42.485;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9924;70.4987;155;155;1045;True;0.0;True;0;0.0;1045;49.631;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4987;77.9987;141;141;1059;True;0.0;True;0;0.0;1059;57.485;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9979;588;588;1212;True;0.0;True;0;0.0;1212;42.387;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9979;70.4992;153;153;1047;True;0.0;True;0;0.0;1047;49.505;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4992;77.9999;103;103;1097;True;0.0;True;0;0.0;1097;57.478;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9998;1003;1003;797;True;0.0;True;0;0.0;797;36.024;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9998;70.4994;478;478;722;True;0.0;True;0;0.0;722;48.68;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_lento;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4994;77.9996;443;443;757;True;0.0;True;0;0.0;757;56.8;treino;0.94;1.08;3.0;True
+Receita 01;treino_mais_rapido;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9624;1148;1148;652;True;0.0;True;0;0.0;652;36.983;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9625;70.4674;453;453;747;True;0.0;True;0;0.0;747;43.263;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4675;77.9761;357;357;843;True;0.0;True;0;0.0;843;50.191;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.992;887;887;913;True;0.0;True;0;0.0;913;36.917;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.992;70.4981;147;147;1053;True;0.0;True;0;0.0;1053;43.465;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4981;77.9993;104;104;1096;True;0.0;True;0;0.0;1096;50.392;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9971;657;657;1143;True;0.0;True;0;0.0;1143;36.87;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9971;70.4988;134;134;1066;True;0.0;True;0;0.0;1066;43.376;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4988;77.9995;87;87;1113;True;0.0;True;0;0.0;1113;50.368;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9997;1030;1030;770;True;0.0;True;0;0.0;770;31.12;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9997;70.4991;496;496;704;True;0.0;True;0;0.0;704;42.58;treino;1.07;0.93;1.0;True
+Receita 01;treino_mais_rapido;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4991;77.9994;463;463;737;True;0.0;True;0;0.0;737;49.747;treino;1.07;0.93;1.0;True
+Receita 01;treino_ganho_alto;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9629;1143;1143;657;True;0.0;True;0;0.0;657;35.325;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.963;70.471;410;410;790;True;0.0;True;0;0.0;790;41.385;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4711;77.978;328;328;872;True;0.0;True;0;0.0;872;47.96;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9918;893;893;907;True;0.0;True;0;0.0;907;35.261;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9918;70.4981;132;132;1068;True;0.0;True;0;0.0;1068;41.546;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4981;77.9992;90;90;1110;True;0.01899;True;0;0.051;1123;48.143;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9968;680;680;1120;True;0.0;True;0;0.0;1120;35.232;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9968;70.4989;109;109;1091;True;0.0;True;0;0.0;1091;41.453;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4989;77.9995;69;69;1131;True;0.0;True;0;0.0;1131;48.118;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9996;1033;1033;767;True;0.0;True;0;0.0;767;29.816;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9996;70.499;503;503;697;True;0.0;True;0;0.0;697;40.678;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_alto;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.499;77.9993;470;470;730;True;0.0;True;0;0.0;730;47.515;treino;1.12;0.9;5.0;True
+Receita 01;treino_ganho_baixo;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9511;;;543;False;0.0;True;0;0.0;543;45.561;treino;0.88;1.15;7.0;False
+Receita 01;treino_ganho_baixo;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9512;70.4646;484;484;716;True;0.0;True;0;0.0;716;52.838;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4647;77.9752;378;378;822;True;0.0;True;0;0.0;822;61.251;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9923;908;908;892;True;0.0;True;0;0.0;892;45.583;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9923;70.4991;155;155;1045;True;0.0;True;0;0.0;1045;53.113;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4991;77.9969;250;250;950;True;0.0;True;0;0.0;950;61.426;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9982;564;564;1236;True;0.0;True;0;0.0;1236;45.458;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9983;70.4994;160;160;1040;True;0.0;True;0;0.0;1040;52.957;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4994;78.0001;107;107;1093;True;0.01134;True;0;2.007;1093;61.482;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9999;995;995;805;True;0.0;True;0;0.0;805;38.819;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9999;70.4995;470;470;730;True;0.0;True;0;0.0;730;52.122;treino;0.88;1.15;7.0;True
+Receita 01;treino_ganho_baixo;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4995;77.9997;435;435;765;True;0.0;True;0;0.0;765;60.773;treino;0.88;1.15;7.0;True
+Receita 01;teste_ganho_alto;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9631;1140;1140;660;True;0.0;True;0;0.0;660;34.251;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9632;70.4718;398;398;802;True;0.0;True;0;0.0;802;40.295;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4718;77.9777;331;331;869;True;0.0;True;0;0.0;869;46.674;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9915;899;899;901;True;0.0;True;0;0.0;901;34.189;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9915;70.4979;149;149;1051;True;0.0;True;0;0.0;1072;40.426;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4979;77.999;91;91;1109;True;0.71746;False;33;9.988;1116;46.848;validacao;1.15;0.85;6.0;False
+Receita 01;teste_ganho_alto;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9965;703;703;1097;True;0.0;True;0;0.0;1097;34.165;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9965;70.4988;142;142;1058;True;0.0;True;0;0.0;1077;40.336;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4988;77.9995;100;100;1100;True;0.05533;False;13;0.761;1120;46.825;validacao;1.15;0.85;6.0;False
+Receita 01;teste_ganho_alto;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9996;1030;1030;770;True;0.0;True;0;0.0;770;28.94;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9996;70.499;501;501;699;True;0.0;True;0;0.0;699;39.584;validacao;1.15;0.85;6.0;True
+Receita 01;teste_ganho_alto;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.499;77.9993;474;474;726;True;0.0;True;0;0.0;726;46.236;validacao;1.15;0.85;6.0;True
+Receita 01;teste_lento;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.949;;;525;False;0.0;True;0;0.0;525;47.315;validacao;0.85;1.2;9.0;False
+Receita 01;teste_lento;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9491;70.4652;478;478;722;True;0.0;True;0;0.0;722;54.772;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4653;77.976;372;372;828;True;0.0;True;0;0.0;828;63.473;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9926;907;907;893;True;0.0;True;0;0.0;893;47.36;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9926;70.4995;156;156;1044;True;0.0;True;0;0.0;1044;55.058;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4995;77.9968;263;263;937;True;0.0;True;0;0.0;937;63.642;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9987;542;542;1258;True;0.0;True;0;0.0;1258;47.225;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9987;70.4996;167;167;1033;True;0.0;True;0;0.0;1033;54.883;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4996;78.0002;111;111;1089;True;0.05972;False;83;7.547;1089;63.712;validacao;0.85;1.2;9.0;False
+Receita 01;teste_lento;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9999;985;985;815;True;0.0;True;0;0.0;815;40.447;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9999;70.4996;462;462;738;True;0.0;True;0;0.0;738;54.052;validacao;0.85;1.2;9.0;True
+Receita 01;teste_lento;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4996;77.9998;427;427;773;True;0.0;True;0;0.0;773;62.99;validacao;0.85;1.2;9.0;True
+Receita 01;teste_atraso;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9578;1198;1198;602;True;0.0;True;0;0.0;602;38.027;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9579;70.4729;389;389;811;True;0.0;True;0;0.0;811;44.31;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4729;77.9792;312;312;888;True;0.0;True;0;0.0;888;51.282;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9916;912;912;888;True;0.0;True;0;0.0;888;38.003;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9916;70.4985;143;143;1057;True;0.0;True;0;0.0;1059;44.466;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4985;77.9997;149;149;1051;True;1.3402;False;72;35.56;1077;51.491;validacao;1.05;1.0;12.0;False
+Receita 01;teste_atraso;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9969;681;681;1119;True;0.0;True;0;0.0;1119;37.95;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.997;70.4985;181;181;1019;True;0.05531;False;24;1.058;1062;44.341;validacao;1.05;1.0;12.0;False
+Receita 01;teste_atraso;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4985;78.001;207;207;993;True;0.37696;False;185;20.903;1062;51.44;validacao;1.05;1.0;12.0;False
+Receita 01;teste_atraso;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9998;1027;1027;773;True;0.0;True;0;0.0;773;32.322;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9998;70.4993;466;466;734;True;0.0;True;0;0.0;734;43.604;validacao;1.05;1.0;12.0;True
+Receita 01;teste_atraso;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4993;77.9995;455;455;745;True;0.0;True;0;0.0;745;50.824;validacao;1.05;1.0;12.0;True
+Receita 01;teste_k_baixo_tau_rapido;PID fixo;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9399;;;480;False;0.0;True;0;0.0;480;43.11;validacao;0.9;0.87;8.0;False
+Receita 01;teste_k_baixo_tau_rapido;PID fixo;2;Alfa-amilase;70.5;1800;3000;1200;61.9401;70.4508;;;594;False;0.0;True;0;0.0;594;51.274;validacao;0.9;0.87;8.0;False
+Receita 01;teste_k_baixo_tau_rapido;PID fixo;3;Inativacao / final;78.0;3000;4200;1200;70.4509;77.9635;506;506;694;True;0.0;True;0;0.0;694;59.556;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9866;1016;1016;784;True;0.0;True;0;0.0;784;43.106;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;2;Alfa-amilase;70.5;1800;3000;1200;61.9867;70.4964;222;222;978;True;0.0;True;0;0.0;978;51.542;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;3;Inativacao / final;78.0;3000;4200;1200;70.4964;77.9942;362;362;838;True;0.0;True;0;0.0;838;59.714;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9945;819;819;981;True;0.0;True;0;0.0;981;42.995;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;2;Alfa-amilase;70.5;1800;3000;1200;61.9946;70.4981;184;184;1016;True;0.0;True;0;0.0;1016;51.43;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;3;Inativacao / final;78.0;3000;4200;1200;70.4981;77.9992;83;83;1117;True;0.0;True;0;0.0;1117;59.806;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy puro incremental;1;Beta-amilase;62.0;0;1800;1800;26.0;61.9995;1058;1058;742;True;0.0;True;0;0.0;742;36.427;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy puro incremental;2;Alfa-amilase;70.5;1800;3000;1200;61.9995;70.4988;517;517;683;True;0.0;True;0;0.0;683;50.517;validacao;0.9;0.87;8.0;True
+Receita 01;teste_k_baixo_tau_rapido;Fuzzy puro incremental;3;Inativacao / final;78.0;3000;4200;1200;70.4989;77.9993;480;480;720;True;0.0;True;0;0.0;720;59.064;validacao;0.9;0.87;8.0;True
+Receita 02;nominal;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9983;319;319;1481;True;0.0;True;0;0.0;1481;18.993;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9983;51.9951;246;246;954;True;0.0;True;0;0.0;954;27.3;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9951;62.9944;238;238;962;True;0.0;True;0;0.0;962;38.557;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.9944;70.4685;437;437;763;True;0.0;True;0;0.0;763;46.18;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4686;77.9751;373;373;827;True;0.0;True;0;0.0;827;53.748;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9859;526;526;1274;True;0.0;True;0;0.0;1274;18.689;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.986;51.9653;487;487;713;True;0.0;True;0;0.0;713;26.961;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9654;62.997;228;228;972;True;0.0;True;0;0.0;972;38.52;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.997;70.4983;150;150;1050;True;0.0;True;0;0.0;1050;46.395;treino;1.0;1.0;0.0;True
+Receita 02;nominal;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4983;77.9995;112;112;1088;True;0.0;True;0;0.0;1088;53.978;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9919;499;499;1301;True;0.0;True;0;0.0;1301;18.471;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9919;51.98;381;381;819;True;0.0;True;0;0.0;819;26.848;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9801;62.9973;227;227;973;True;0.0;True;0;0.0;973;38.353;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9973;70.499;138;138;1062;True;0.0;True;0;0.0;1062;46.32;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.499;77.9997;100;100;1100;True;0.0;True;0;0.0;1100;53.946;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0;597;597;1203;True;0.0;True;0;0.0;1203;17.553;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0;51.9998;413;413;787;True;0.0;True;0;0.0;787;26.642;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9998;62.9995;496;496;704;True;0.0;True;0;0.0;704;37.515;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9995;70.4993;467;467;733;True;0.0;True;0;0.0;733;45.626;treino;1.0;1.0;0.0;True
+Receita 02;nominal;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4993;77.9995;453;453;747;True;0.0;True;0;0.0;747;53.294;treino;1.0;1.0;0.0;True
+Receita 02;treino_mais_lento;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9997;319;319;1481;True;0.0;True;0;0.0;1481;20.444;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9997;51.9995;251;251;949;True;0.0;True;0;0.0;949;29.188;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9995;62.999;238;238;962;True;0.0;True;0;0.0;962;41.194;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.999;70.4686;436;436;764;True;0.0;True;0;0.0;764;49.215;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4687;77.9754;372;372;828;True;0.0;True;0;0.0;828;57.265;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9939;469;469;1331;True;0.0;True;0;0.0;1331;20.12;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.9939;51.9687;463;463;737;True;0.0;True;0;0.0;737;28.802;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9688;62.9993;227;227;973;True;0.0;True;0;0.0;973;41.145;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9993;70.4987;150;150;1050;True;0.0;True;0;0.0;1050;49.446;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4987;77.9987;141;141;1059;True;0.0;True;0;0.0;1059;57.485;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.995;485;485;1315;True;0.0;True;0;0.0;1315;19.836;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.995;51.982;381;381;819;True;0.0;True;0;0.0;819;28.655;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.982;62.9986;236;236;964;True;0.0;True;0;0.0;964;40.938;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9986;70.4992;144;144;1056;True;0.0;True;0;0.0;1056;49.352;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4992;77.9999;103;103;1097;True;0.0;True;0;0.0;1097;57.478;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0;552;552;1248;True;0.0;True;0;0.0;1248;18.921;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0;51.9999;381;381;819;True;0.0;True;0;0.0;819;28.535;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9999;62.9996;480;480;720;True;0.0;True;0;0.0;720;40.101;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9996;70.4995;458;458;742;True;0.0;True;0;0.0;742;48.652;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_lento;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4995;77.9996;443;443;757;True;0.0;True;0;0.0;757;56.8;treino;0.94;1.08;3.0;True
+Receita 02;treino_mais_rapido;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9956;388;388;1412;True;0.0;True;0;0.0;1412;17.57;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9956;51.9933;228;228;972;True;0.0;True;0;0.0;972;25.45;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9933;62.9926;224;224;976;True;0.0;True;0;0.0;976;35.951;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.9926;70.4705;413;413;787;True;0.0;True;0;0.0;787;43.135;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4706;77.9762;355;355;845;True;0.0;True;0;0.0;845;50.191;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9814;596;596;1204;True;0.0;True;0;0.0;1204;17.326;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.9815;51.964;496;496;704;True;0.0;True;0;0.0;704;25.137;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9641;62.9953;223;223;977;True;0.0;True;0;0.0;977;35.911;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9953;70.4981;142;142;1058;True;0.0;True;0;0.0;1058;43.319;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4981;77.9993;104;104;1096;True;0.0;True;0;0.0;1096;50.392;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9901;529;529;1271;True;0.0;True;0;0.0;1271;17.16;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9901;51.9794;375;375;825;True;0.0;True;0;0.0;825;25.05;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9795;62.9965;211;211;989;True;0.0;True;0;0.0;989;35.771;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9965;70.4989;125;125;1075;True;0.0;True;0;0.0;1075;43.254;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4989;77.9995;87;87;1113;True;0.0;True;0;0.0;1113;50.368;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0;617;617;1183;True;0.0;True;0;0.0;1183;16.252;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0;51.9997;443;443;757;True;0.0;True;0;0.0;757;24.768;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9997;62.9993;514;514;686;True;0.0;True;0;0.0;686;34.941;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9993;70.4992;478;478;722;True;0.0;True;0;0.0;722;42.569;treino;1.07;0.93;1.0;True
+Receita 02;treino_mais_rapido;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4992;77.9994;463;463;737;True;0.0;True;0;0.0;737;49.747;treino;1.07;0.93;1.0;True
+Receita 02;treino_ganho_alto;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9929;538;538;1262;True;0.0;True;0;0.0;1262;16.726;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.993;51.9944;215;215;985;True;0.0;True;0;0.0;985;24.346;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9944;62.9941;187;187;1013;True;0.0;True;0;0.0;1013;34.378;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.9942;70.4738;370;370;830;True;0.0;True;0;0.0;830;41.255;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4738;77.9781;326;326;874;True;0.0;True;0;0.0;874;47.96;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9813;597;597;1203;True;0.0;True;0;0.0;1203;16.539;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.9813;51.9648;488;488;712;True;0.0;True;0;0.0;712;24.025;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9648;62.9946;214;214;986;True;0.0;True;0;0.0;986;34.314;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9947;70.4981;128;128;1072;True;0.0;True;0;0.0;1072;41.4;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4981;77.9992;90;90;1110;True;0.019;True;0;0.051;1123;48.143;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.99;529;529;1271;True;0.0;True;0;0.0;1271;16.396;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.99;51.98;360;360;840;True;0.0;True;0;0.0;840;23.949;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9801;62.9963;190;190;1010;True;0.0;True;0;0.0;1010;34.181;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9963;70.499;102;102;1098;True;0.0;True;0;0.0;1098;41.333;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.499;77.9995;69;69;1131;True;0.0;True;0;0.0;1131;48.118;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.007;598;598;1202;True;0.01362;True;0;3.111;1202;15.528;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0071;51.9997;386;386;814;True;0.0;True;0;0.0;814;23.697;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9997;62.9991;523;523;677;True;0.0;True;0;0.0;677;33.374;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9992;70.4991;485;485;715;True;0.0;True;0;0.0;715;40.664;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_alto;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4991;77.9993;470;470;730;True;0.0;True;0;0.0;730;47.515;treino;1.12;0.9;5.0;True
+Receita 02;treino_ganho_baixo;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0007;331;331;1469;True;0.0142;True;0;7.405;1469;22.049;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID fixo;2;Parada proteica;52.0;1800;3000;1200;44.0007;52.0038;258;258;942;True;0.01852;True;0;8.651;942;31.314;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;52.0037;63.0036;240;240;960;True;0.01895;True;0;8.923;960;44.171;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;63.0036;70.4684;439;439;761;True;0.0;True;0;0.0;761;52.653;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4685;77.9754;376;376;824;True;0.0;True;0;0.0;824;61.251;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0021;455;455;1345;True;0.01084;True;0;6.936;1345;21.71;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;44.0021;51.9718;452;452;748;True;0.0;True;0;0.0;748;30.868;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9718;63.0015;230;230;970;True;0.01893;True;0;7.3;970;44.103;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;63.0015;70.499;152;152;1048;True;0.0;True;0;0.0;1048;52.902;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.499;77.9969;250;250;950;True;0.0;True;0;0.0;950;61.426;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9983;497;497;1303;True;0.0;True;0;0.0;1303;21.348;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9983;51.9838;392;392;808;True;0.0;True;0;0.0;808;30.683;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9839;62.9998;248;248;952;True;0.0;True;0;0.0;952;43.851;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9998;70.4994;151;151;1049;True;0.0;True;0;0.0;1049;52.785;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4994;78.0001;107;107;1093;True;0.01135;True;0;2.011;1093;61.482;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0;490;490;1310;True;0.01798;True;0;2.026;1310;20.443;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0;52.0;320;320;880;True;0.0;True;0;0.0;880;30.664;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;52.0;62.9998;467;467;733;True;0.0;True;0;0.0;733;43.017;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9998;70.4996;450;450;750;True;0.0;True;0;0.0;750;52.082;treino;0.88;1.15;7.0;True
+Receita 02;treino_ganho_baixo;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4996;77.9997;435;435;765;True;0.0;True;0;0.0;765;60.773;treino;0.88;1.15;7.0;True
+Receita 02;teste_ganho_alto;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9903;650;650;1150;True;0.0;True;0;0.0;1150;16.185;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9903;51.993;219;219;981;True;0.0;True;0;0.0;1000;23.666;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.993;62.993;239;239;961;True;0.0;True;0;0.0;1002;33.432;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.993;70.4743;356;356;844;True;0.0;True;0;0.0;844;40.168;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4744;77.9779;329;329;871;True;0.0;True;0;0.0;871;46.674;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9778;676;676;1124;True;0.0;True;0;0.0;1124;15.995;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.9779;51.9628;508;508;692;True;0.0;True;0;0.0;692;23.341;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9629;62.9934;233;233;967;True;0.0;True;0;0.0;967;33.35;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9934;70.4979;115;115;1085;True;0.0;True;0;0.0;1085;40.29;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4979;77.999;91;91;1109;True;0.71751;False;33;9.99;1116;46.848;validacao;1.15;0.85;6.0;False
+Receita 02;teste_ganho_alto;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9887;577;577;1223;True;0.0;True;0;0.0;1223;15.876;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9887;51.9791;374;374;826;True;0.0;True;0;0.0;826;23.277;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9792;62.9957;214;214;986;True;0.0;True;0;0.0;986;33.227;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9957;70.4989;135;135;1065;True;0.0;True;0;0.0;1087;40.223;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4989;77.9995;100;100;1100;True;0.05547;False;13;0.765;1120;46.825;validacao;1.15;0.85;6.0;False
+Receita 02;teste_ganho_alto;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0711;582;582;1218;True;0.11069;False;472;32.051;1218;15.032;validacao;1.15;0.85;6.0;False
+Receita 02;teste_ganho_alto;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0683;52.0168;331;331;869;True;0.07197;False;212;10.111;869;23.078;validacao;1.15;0.85;6.0;False
+Receita 02;teste_ganho_alto;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;52.0168;62.9991;518;518;682;True;0.0;True;0;0.0;682;32.438;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9991;70.4991;476;476;724;True;0.0;True;0;0.0;724;39.587;validacao;1.15;0.85;6.0;True
+Receita 02;teste_ganho_alto;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4991;77.9993;474;474;726;True;0.0;True;0;0.0;726;46.236;validacao;1.15;0.85;6.0;True
+Receita 02;teste_lento;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.002;333;333;1467;True;0.0485;False;525;25.609;1467;22.993;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;PID fixo;2;Parada proteica;52.0;1800;3000;1200;44.002;52.0075;262;262;938;True;0.03982;False;446;18.983;938;32.52;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;52.0074;63.0078;241;241;959;True;0.04398;False;480;21.088;959;45.855;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;63.0078;70.469;432;432;768;True;0.0;True;0;0.0;768;54.571;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4691;77.9762;370;370;830;True;0.0;True;0;0.0;830;63.474;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0094;450;450;1350;True;0.05967;False;833;39.963;1350;22.643;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;44.0094;51.9755;440;440;760;True;0.0;True;0;0.0;760;32.042;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9756;63.0037;232;232;968;True;0.05072;False;407;19.788;968;45.776;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;63.0037;70.4993;152;152;1048;True;0.0;True;0;0.0;1048;54.832;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4993;77.9968;263;263;937;True;0.0;True;0;0.0;937;63.642;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0011;506;506;1294;True;0.01228;True;0;6.358;1294;22.228;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;44.0011;51.9859;399;399;801;True;0.0;True;0;0.0;801;31.828;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.986;63.0009;257;257;943;True;0.01897;True;0;6.35;943;45.493;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;63.0009;70.4996;157;157;1043;True;0.0;True;0;0.0;1043;54.698;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4996;78.0002;111;111;1089;True;0.05973;False;83;7.549;1089;63.712;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9999;480;480;1320;True;0.14231;False;205;16.055;1320;21.327;validacao;0.85;1.2;9.0;False
+Receita 02;teste_lento;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;43.9999;52.0;285;285;915;True;0.00081;True;0;0.063;915;31.876;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;52.0;62.9998;456;456;744;True;0.0;True;0;0.0;744;44.669;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9998;70.4996;441;441;759;True;0.0;True;0;0.0;759;54.003;validacao;0.85;1.2;9.0;True
+Receita 02;teste_lento;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4996;77.9998;427;427;773;True;0.0;True;0;0.0;773;62.99;validacao;0.85;1.2;9.0;True
+Receita 02;teste_atraso;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9924;583;583;1217;True;0.0;True;0;0.0;1217;18.119;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9924;51.9996;188;188;1012;True;0.0;True;0;0.0;1012;26.177;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9996;63.0;220;220;980;True;0.02125;False;5;0.607;1010;36.919;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;63.0;70.4756;332;332;868;True;0.0;True;0;0.0;868;44.15;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4757;77.9794;312;312;888;True;0.0;True;0;0.0;888;51.282;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9897;422;422;1378;True;0.0;True;0;0.0;1378;17.959;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.9897;51.9685;450;450;750;True;0.0;True;0;0.0;750;25.8;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9686;62.9965;190;190;1010;True;0.0;True;0;0.0;1010;36.826;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9965;70.4985;142;142;1058;True;0.0;True;0;0.0;1075;44.292;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4985;77.9997;149;149;1051;True;1.34017;False;72;35.557;1077;51.491;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9931;407;407;1393;True;0.0;True;0;0.0;1393;17.752;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9932;51.9823;330;330;870;True;0.0;True;0;0.0;870;25.691;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9823;62.9974;180;180;1020;True;0.0;True;0;0.0;1020;36.654;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9974;70.4987;175;175;1025;True;0.06949;False;30;1.631;1069;44.197;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4988;78.001;207;207;993;True;0.37708;False;185;20.912;1062;51.44;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0183;608;608;1192;True;0.10376;False;467;33.029;1192;16.886;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0208;51.9985;364;364;836;True;0.14798;False;327;23.283;836;25.538;validacao;1.05;1.0;12.0;False
+Receita 02;teste_atraso;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9995;62.996;518;518;682;True;0.00703;True;0;0.709;682;35.863;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9962;70.4995;437;437;763;True;0.0;True;0;0.0;763;43.589;validacao;1.05;1.0;12.0;True
+Receita 02;teste_atraso;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.4995;77.9995;455;455;745;True;0.0;True;0;0.0;745;50.824;validacao;1.05;1.0;12.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID fixo;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9882;711;711;1089;True;0.0;True;0;0.0;1089;20.542;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID fixo;2;Parada proteica;52.0;1800;3000;1200;43.9882;51.9812;298;298;902;True;0.0;True;0;0.0;902;30.038;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID fixo;3;Beta-amilase;63.0;3000;4200;1200;51.9813;62.9793;319;319;881;True;0.0;True;0;0.0;881;42.527;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID fixo;4;Alfa-amilase;70.5;4200;5400;1200;62.9794;70.4557;561;561;639;True;0.0;True;0;0.0;639;51.141;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID fixo;5;Inativacao / final;78.0;5400;6600;1200;70.4559;77.9638;503;503;697;True;0.0;True;0;0.0;697;59.557;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.962;925;925;875;True;0.0;True;0;0.0;875;20.235;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;2;Parada proteica;52.0;1800;3000;1200;43.962;51.9424;;;529;False;0.0;True;0;0.0;529;29.613;validacao;0.9;0.87;8.0;False
+Receita 02;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;3;Beta-amilase;63.0;3000;4200;1200;51.9425;62.9889;360;360;840;True;0.0;True;0;0.0;840;42.467;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;4;Alfa-amilase;70.5;4200;5400;1200;62.9889;70.4966;210;210;990;True;0.0;True;0;0.0;990;51.384;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;PID Gain Scheduling por faixas;5;Inativacao / final;78.0;5400;6600;1200;70.4966;77.9942;362;362;838;True;0.0;True;0;0.0;838;59.714;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;1;Beta-glucanase;44.0;0;1800;1800;26.0;43.9828;743;743;1057;True;0.0;True;0;0.0;1057;20.027;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;2;Parada proteica;52.0;1800;3000;1200;43.9829;51.9686;514;514;686;True;0.0;True;0;0.0;686;29.513;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;3;Beta-amilase;63.0;3000;4200;1200;51.9687;62.9936;291;291;909;True;0.0;True;0;0.0;909;42.294;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;4;Alfa-amilase;70.5;4200;5400;1200;62.9936;70.4983;173;173;1027;True;0.0;True;0;0.0;1043;51.302;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy-PID Gain Scheduling;5;Inativacao / final;78.0;5400;6600;1200;70.4983;77.9992;83;83;1117;True;0.0;True;0;0.0;1117;59.806;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy puro incremental;1;Beta-glucanase;44.0;0;1800;1800;26.0;44.0018;631;631;1169;True;0.00568;True;0;1.028;1169;19.092;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy puro incremental;2;Parada proteica;52.0;1800;3000;1200;44.0018;51.9997;426;426;774;True;0.0;True;0;0.0;774;29.343;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy puro incremental;3;Beta-amilase;63.0;3000;4200;1200;51.9997;62.9991;530;530;670;True;0.0;True;0;0.0;670;41.381;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy puro incremental;4;Alfa-amilase;70.5;4200;5400;1200;62.9991;70.499;497;497;703;True;0.0;True;0;0.0;703;50.52;validacao;0.9;0.87;8.0;True
+Receita 02;teste_k_baixo_tau_rapido;Fuzzy puro incremental;5;Inativacao / final;78.0;5400;6600;1200;70.499;77.9993;480;480;720;True;0.0;True;0;0.0;720;59.064;validacao;0.9;0.87;8.0;True

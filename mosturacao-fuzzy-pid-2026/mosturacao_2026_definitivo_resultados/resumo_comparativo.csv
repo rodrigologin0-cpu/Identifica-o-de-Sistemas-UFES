@@ -1,0 +1,9 @@
+grupo;controlador;patamares;qualidade_10min_sem_sobressinal;cumpriu_10min;patamares_sem_sobressinal;Ts_mediano_s_somente_acomodados;Ts_amostras;pior_sobressinal_C;area_excesso_Cs
+treino;PID fixo;40;38;38;40;372.5;38;0.01895;24.98
+treino;PID Gain Scheduling por faixas;40;40;40;40;225.0;40;0.019;14.34
+treino;Fuzzy-PID Gain Scheduling;40;40;40;40;175.0;40;0.01135;4.02
+treino;Fuzzy puro incremental;40;40;40;40;474.0;40;0.01798;5.14
+validacao;PID fixo;32;25;29;28;356.0;29;0.0485;66.29
+validacao;PID Gain Scheduling por faixas;32;25;31;26;263.0;31;1.3402;150.85
+validacao;Fuzzy-PID Gain Scheduling;32;24;32;24;207.0;32;0.37708;73.83
+validacao;Fuzzy puro incremental;32;27;32;27;478.0;32;0.14798;116.33

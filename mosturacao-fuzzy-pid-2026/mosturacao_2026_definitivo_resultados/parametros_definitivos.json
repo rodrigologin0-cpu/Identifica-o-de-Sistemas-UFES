@@ -1,0 +1,64 @@
+{
+  "versao": "2026.4 - curvas completas; ajuste igualitário",
+  "parametros": [
+    [
+      5.424560514850783,
+      376.59086221524484,
+      16.859458667879565
+    ],
+    [
+      0.5369622135532419,
+      1.2877261115712657,
+      1.2528213405349367
+    ],
+    [
+      0.6686257812614939,
+      1.2261757210884165,
+      0.6304778737733048,
+      1.3179479716481004,
+      0.5725831221863728,
+      1.202225381162034
+    ],
+    [
+      0.2457558117394747,
+      0.6703745350623742,
+      3.3159977330022947,
+      0.028810508255134176
+    ]
+  ],
+  "relatorio_otimizacao": [
+    {
+      "controlador": "PID fixo",
+      "custo_treino": 2100904.98,
+      "iteracoes": 32,
+      "avaliacoes": 594,
+      "sucesso_otimizador": true
+    },
+    {
+      "controlador": "PID Gain Scheduling por faixas",
+      "custo_treino": 337,
+      "iteracoes": 36,
+      "avaliacoes": 666,
+      "sucesso_otimizador": false
+    },
+    {
+      "controlador": "Fuzzy-PID Gain Scheduling",
+      "custo_treino": 273.675,
+      "iteracoes": 36,
+      "avaliacoes": 1332,
+      "sucesso_otimizador": false
+    },
+    {
+      "controlador": "Fuzzy puro incremental",
+      "custo_treino": 541.325,
+      "iteracoes": 36,
+      "avaliacoes": 888,
+      "sucesso_otimizador": false
+    }
+  ],
+  "semente": 2026,
+  "maxiter": 36,
+  "popsize": 6,
+  "criterio": "Prioridade 1 limite de sobressinal 0.02 na escala hipotetica; prioridade 2 600s consecutivos em +/-0.2; prioridade 3 menor Ts medio; 5 cenarios de treino separados dos 4 de validacao",
+  "limites": "0..100% assumidos, GP1..GP4 com centros de temperatura hipoteticos; simulacao apenas"
+}
